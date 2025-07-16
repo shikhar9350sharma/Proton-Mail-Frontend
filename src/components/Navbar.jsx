@@ -27,7 +27,7 @@ const Navbar = () => {
                 
                 <div className='flex items-center font-serif space-x-3 text-[#372580]'>
                     <span className='hover:text-blue-600 font-sans font-semibold'><a href="/">Discover Proton</a></span>
-                    <div><button className='hover:bg-blue-800 font-serif px-2 rounded-xl bg-[#6d4aff] text-white'>Get Proton Mail</button></div>
+                    <div><button className='hover:bg-blue-800 font-serif p-1 px-2 rounded-2xl bg-[#6d4aff] text-white '>Get Proton Mail</button></div>
                     <span className='hover:text-blue-600 font-sans font-semibold'><a href="/">Sign in</a></span>
                 </div>
             </nav>
