@@ -14,17 +14,14 @@ const Navbar = () => {
                     </span>
                     <div>
                         <ul className='flex items-center space-x-4 font-serif text-[#372580]'>
-                            <a className='hover:text-blue-600 font-semibold font-sans' href="/"><li>Features</li></a>
-                            <a className='hover:text-blue-600 font-semibold font-sans' href="/"><li>Pricing</li></a>
-                            <a className='hover:text-blue-600 font-semibold font-sans' href="/"><li>Mail for Business</li></a>
-                            <a className='hover:text-blue-600 font-semibold font-sans' href="/"><li>Download</li></a>
-                            <a className='hover:text-blue-600 font-semibold font-sans' href="/"><li>Resource and Support</li></a>
+                            <li><a className='hover:text-blue-600 font-semibold font-sans' href="/">Feartures</a></li>
+                            <li><a className='hover:text-blue-600 font-semibold font-sans' href="/">Pricing</a></li>
+                            <li><a className='hover:text-blue-600 font-semibold font-sans' href="/">Mail for Business</a></li>
+                            <li><a className='hover:text-blue-600 font-semibold font-sans' href="/">Download</a></li>
+                            <li><a className='hover:text-blue-600 font-semibold font-sans' href="/">Resource and Support</a></li>
                         </ul>
-
                     </div>
-                    
                 </div>
-                
                 <div className='flex items-center font-serif space-x-3 text-[#372580]'>
                     <span className='hover:text-blue-600 font-sans font-semibold'><a href="/">Discover Proton</a></span>
                     <div><button className='hover:bg-blue-800 font-serif p-1 px-2 rounded-2xl bg-[#6d4aff] text-white '>Get Proton Mail</button></div>
