@@ -79,30 +79,54 @@ const SectionEleven = () => {
             </ul>
           </div>
         </div>
-        <div className='flex items-center justify-between gap-4 m-4 p-4'>
+        {/* Top Section */}
+        <div className='flex flex-col md:flex-row items-center md:items-start justify-between gap-4 m-2 sm:m-4 p-2 sm:p-4'>
+          {/* Navigation Links */}
           <div>
-            <ul className='flex space-x-5 items-center'>
-              <li className='hover:underline text-[#372580] font-sans '><a href="/">System status</a></li>
-              <li className='hover:underline text-[#372580] font-sans '><a href="/">Report abuse</a></li>
-              <li className='hover:underline text-[#372580] font-sans '><a href="/">Report a problem</a></li>
-              <li className='hover:underline text-[#372580] font-sans '><a href="/">Report a security issue</a></li>  
-              <li className='hover:underline text-[#372580] font-sans '><a href="/">Request a feature</a></li>  
+            <ul className='flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 text-sm sm:text-base md:text-lg'>
+              <li className='hover:underline text-[#372580] font-sans'>
+                <a href="/">System status</a>
+              </li>
+              <li className='hover:underline text-[#372580] font-sans'>
+                <a href="/">Report abuse</a>
+              </li>
+              <li className='hover:underline text-[#372580] font-sans'>
+                <a href="/">Report a problem</a>
+              </li>
+              <li className='hover:underline text-[#372580] font-sans'>
+                <a href="/">Report a security issue</a>
+              </li>
+              <li className='hover:underline text-[#372580] font-sans'>
+                <a href="/">Request a feature</a>
+              </li>
             </ul>
           </div>
-          <div><button className='flex items-center font-sans font-semibold bg-white text-[#6d4aff]  border-2 border-[#6d4aff]  rounded-xl px-4 text-xl hover:bg-[#6d4aff] hover:text-white'>English</button></div>
+
+          {/* Language Button */}
+          <div>
+            <button className='flex items-center font-sans font-semibold bg-white text-[#6d4aff] border-2 border-[#6d4aff] rounded-xl px-4 py-2 text-sm sm:text-base md:text-lg hover:bg-[#6d4aff] hover:text-white'>
+              English
+            </button>
+          </div>
         </div>
-        <div className='ml-10'>
-          <ul className='flex space-x-5 items-center text-sm text-gray-600'>
-            <li className='hover:underline font-sans'><a href="/">Privacy policy</a></li>
-            <li className='hover:underline font-sans'><a href="/">Terms & conditions</a></li>
-            <li className='hover:underline font-sans'><a href="/">Transparency report</a></li>
-            <li><span>&copy; 2025 Proton AG. All rights reserved.</span></li>
-          
+
+        {/* Bottom Section */}
+        <div className='mt-4 px-4'>
+          <ul className='flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start gap-x-5 gap-y-2 text-sm text-gray-600 font-sans'>
+            <li className='hover:underline'>
+              <a href="/">Privacy policy</a>
+            </li>
+            <li className='hover:underline'>
+              <a href="/">Terms & conditions</a>
+            </li>
+            <li className='hover:underline'>
+              <a href="/">Transparency report</a>
+            </li>
+            <li>
+              <span>&copy; 2025 Proton AG. All rights reserved.</span>
+            </li>
           </ul>
         </div>
-         
-      
-        
       </section>
     </div>
   )
